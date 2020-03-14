@@ -1,10 +1,11 @@
  <template>
-<h1>THIS IS JAVASCRIPTZ!!!!</h1>
+<h1>THIS IS JAVASCRIPTZ!!!! {{title}} asdsadas</h1>
+
     </template>
 
     <script>
-        export default {
-            props : ['title', 'author']
+         export default {
+            props : ['title']
         }
     </script>
     <style scoped>

@@ -16,26 +16,23 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome',
     [
-        'title' => "Page 1123",
+        'title' => "Page 1assad",
     ]);
 });
+
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-
-
-Route::get('/page', function () {
-    return view('page',
+Route::get('/home', function () {
+    return view('home',
         [
-            'title' => "Page 2 - A little about the Author",
-            'author' => json_encode([
-                    "name" => "Fisayo Afolayan",
-                    "role" => "Software Enginner",
-                    "code" => "Always keeping it clean"
-            ])
+            'title' => "Page 2 - A little about the Author"
+            
         ]
     );
 });
+
+
 

@@ -21,7 +21,7 @@
         </div>
     </div>
 </div>
-<home></home>
+<home :title="'{{$title}}'"></home>
 <script type="text/javascript" src="js/app.js"></script>
 @endsection
 
