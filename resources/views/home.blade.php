@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
+
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
@@ -14,10 +15,13 @@
                         </div>
                     @endif
 
-                    You are logged in!
+                    You are logged in! sadsadas
                 </div>
             </div>
         </div>
     </div>
 </div>
+<home></home>
+<script type="text/javascript" src="js/app.js"></script>
 @endsection
+
